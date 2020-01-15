@@ -67,8 +67,3 @@ steps:
 #    targetPath: '$(Pipeline.Workspace)'
 #    artifact: 'qa'
 #   publishLocation: 'pipeline'
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'qa'
-    publishLocation: 'pipeline'
